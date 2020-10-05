@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1601896662 source:c:\users\me\documents\raia\newproject\main.cpp
+	<iostream>
+	"CVector.h"
+
+1601894688 source:c:\users\me\documents\raia\newproject\src\newclass.cpp
+	"newClass.h"
+
+1601894688 c:\users\me\documents\raia\newproject\include\newclass.h
+
+1601897738 c:\users\me\documents\raia\newproject\include\cvector.h
+
+1601897903 source:c:\users\me\documents\raia\newproject\src\cvector.cpp
+	"CVector.h"
+	<stdlib.h>
+	<iostream>
+
