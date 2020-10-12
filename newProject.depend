@@ -1,17 +1,25 @@
 # depslib dependency file v1.0
-1601896662 source:c:\users\me\documents\raia\newproject\main.cpp
+1602502985 source:c:\users\me\documents\raia\newproject\main.cpp
 	<iostream>
 	"CVector.h"
+	"CRecipe.h"
 
 1601894688 source:c:\users\me\documents\raia\newproject\src\newclass.cpp
 	"newClass.h"
 
 1601894688 c:\users\me\documents\raia\newproject\include\newclass.h
 
-1601897738 c:\users\me\documents\raia\newproject\include\cvector.h
-
-1601897903 source:c:\users\me\documents\raia\newproject\src\cvector.cpp
-	"CVector.h"
+1602502289 c:\users\me\documents\raia\newproject\include\cvector.h
 	<stdlib.h>
+	<iostream>
+
+1602500366 source:c:\users\me\documents\raia\newproject\src\cvector.cpp
+	"CVector.h"
+
+1602502900 source:c:\users\me\documents\raia\newproject\src\crecipe.cpp
+	"CRecipe.h"
+
+1602502900 c:\users\me\documents\raia\newproject\include\crecipe.h
+	<string>
 	<iostream>
 
