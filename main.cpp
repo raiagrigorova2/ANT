@@ -1,17 +1,13 @@
 #include <iostream>
+#include "CVector.h"
 
+#include "InvalidPosition.h"
 using namespace std;
 
-#include "CVector.h"
-#include "CRecipe.h"
+
 int main()
 {
-    CVector <char> vec;
-    CVector <int> vec2;
-
-    CVector <CRecipe> vec3;
-    vec3.push_back(CRecipe("Palachinki",1));
-
+    CVector vec;
 //    for(char c = 'a'; c <= 'z'; c++){
 //        vec.push_back(c);
 //        vec.print();
@@ -22,21 +18,15 @@ int main()
 //        vec.print();
 //    }
 
-    for(int i = 0; i < 10 ; i++){
-        vec2.push_back(i);
-        vec2.print();
-    }
+    vec.insert(1,0);
 
-    for(int i = 0; i < 10 ; i+=4){
-        vec2.insert(99,i);
-        vec2.print();
-    }
+    //Invalid position exception
+    vec.insert(1,3463643643);
 
-    CRecipe res;
-    cin>>res;
+    //Capacity exception
+    vec.setCapacity(2525);
+    vec.enlarge();
 
-    vec3.push_back(res);
-    vec3.print();
 
     return 0;
 }
